@@ -1,4 +1,4 @@
-# Project Name
+# Lending Club Risk Analysis through EDA
 This Dataset contains largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface.  
 
 Like most other lending companies, lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss). Credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters'. 
@@ -34,19 +34,22 @@ In this case study, we will use  EDA (Python) to understand how consumer attribu
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+**Income source** verification through third party for:
+
+- Customers in the 10 plus years employment and who applies loan for debt consolidation.
+- Higher income customers earning more than 120,000 annual income
+- Installments greater than 600 per month
+
+**Approve no lesser than 5%** of the recommended lending amount for customers in the grades B,D,F and G
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- We used following Python library
+We used following **Python library**
 - Pandas, numpy , seaborn, matplotlib
 - python version is 3.8 
-- used google colab for all the development activity 
+- google colab for all the development activity 
 
 ## Acknowledgements
 Give credit here.
